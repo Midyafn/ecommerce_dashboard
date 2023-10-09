@@ -1,5 +1,5 @@
 # E-Commerce Dashboard
-[link to the Dashboard]([https://pages.github.com/](https://ecommercedashboard-midya.streamlit.app/)).
+[link to the Dashboard]([https://pages.github.com/](https://ecommercedashboard-midya.streamlit.app/).
 # Setup Environment
 ```
 pip install numpy pandas scipy matplotlib plotly seaborn jupyter streamlit babel
