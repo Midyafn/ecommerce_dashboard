@@ -28,7 +28,9 @@ def create_sum_orders(df):
     return sum_order_df
 
 
-all_df = pd.read_csv("ecommerce_data.csv")
+url='https://drive.google.com/file/d/136N_d3L-OurX7ULdmuZQgm4vzaPn1AO6/view?usp=sharing'
+url='https://drive.google.com/uc?id=' + url.split('/')[-2]
+all_df = pd.read_csv(url)
 
 datetime_columns = ["order_purchase_timestamp_x", "order_approved_at_x","order_delivered_carrier_date_x", "order_delivered_customer_date_x", "order_estimated_delivery_date_x"]
 all_df.sort_values(by="order_purchase_timestamp_x", inplace=True)
