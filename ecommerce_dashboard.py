@@ -56,7 +56,7 @@ main_df = all_df[(all_df["order_purchase_timestamp_x"] >= str(start_date)) &
 daily_orders_df = create_daily_orders(main_df)
 sum_order_df = create_sum_orders(main_df)    
 
-st.header('E Commerce Dashboard :sparkles:')
+st.header(':shopping_bags:E Commerce Dashboard:shopping_bags:')
 st.subheader('Daily Orders')
 
 col1, col2 = st.columns(2)
